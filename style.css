@@ -1,0 +1,76 @@
+* {
+  color: aliceblue;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background: rgb(23, 23, 28);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 2rem;
+  margin: 2rem 5rem;
+}
+
+code {
+  background-color: #eee;
+  color: rgb(45, 55, 63);
+  border-radius: 3px;
+  font-family: courier, monospace;
+  padding: 0 3px;
+}
+
+span {
+  color: salmon;
+}
+
+p {
+  color: antiquewhite;
+  font-weight: 900;
+  font-size: 70px;
+  text-align: center;
+  line-height: 5rem;
+}
+
+strong {
+  color: salmon;
+}
+
+dt {
+  font-size: 35px;
+  background-color: #2b445e;
+  border-radius: 5px;
+  color: white;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin: 2em 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+dd {
+  text-align: left;
+  font-size: 30px;
+  padding: 10px 0px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #2b2f39;
+}
+::-webkit-scrollbar-thumb {
+  background-color: salmon;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(249, 102, 86);
+}
